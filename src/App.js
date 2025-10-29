@@ -33,6 +33,7 @@ function App() {
     valueC: true
   });
 
+
   // Filter data based on selected date range
   const filterDataByDateRange = (data, dateRange) => {
     const startIndex = data.dates.indexOf(dateRange.start);
